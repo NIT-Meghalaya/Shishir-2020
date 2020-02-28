@@ -1,8 +1,23 @@
 import fetch from "isomorphic-unfetch";
+import styled from "styled-components";
+
+const Container = styled.div`
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+`;
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
-    return <div>Hello World</div>;
+    return (
+      <Container>
+        <h1>Hello World</h1>
+      </Container>
+    );
   }
 }
 
