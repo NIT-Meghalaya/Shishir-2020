@@ -1,7 +1,9 @@
 import fetch from "isomorphic-unfetch";
 
-function App() {
-  return <div>Hello World</div>;
+class App extends React.Component {
+  render() {
+    return <div>Hello World</div>;
+  }
 }
 
 App.getInitialProps = async ({ req }) => {
