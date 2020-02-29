@@ -41,8 +41,8 @@ contains the theme that we will use
 
 Upper level application component that runs when NEXTJS is ran.
 
-###UI Related Information
-Follow the following color palette:
+### UI Related Information
+Follow the  color palette:
 ```
 $color-primary: #eb2f64;
 $color-primary-light: #FF3366;
