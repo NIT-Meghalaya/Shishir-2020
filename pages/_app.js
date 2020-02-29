@@ -1,16 +1,15 @@
 import App from "next/app";
-import { ThemeProvider } from "styled-components";
 import theme from "../theme";
-import Nav from "../ui/nav";
+import Nav from "../ui/nav/nav";
 
 export default class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
     return (
-      <ThemeProvider theme={theme}>
+      <React.Fragment>
         <Nav />
         <Component {...pageProps} />
-      </ThemeProvider>
+      </React.Fragment>
     );
   }
 }
