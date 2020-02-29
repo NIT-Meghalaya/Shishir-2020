@@ -1,5 +1,4 @@
 import App from "next/app";
-import theme from "../theme";
 import Nav from "../ui/nav/nav";
 
 export default class MyApp extends App {

@@ -65,3 +65,22 @@ $text-color:#333;
 $shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
 $shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
 ```
+### UI Helper Classes 
+`.u-margin-bottom-large`
+
+`.u-margin-bottom-medium`
+
+`.u-margin-bottom-small`
+
+`.u-margin-top-large`
+
+`.u-margin-top-medium`
+
+`.u-margin-top-small`
+
+`.container`
+
+`.paragraph`
+
+
+

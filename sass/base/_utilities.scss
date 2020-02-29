@@ -16,3 +16,11 @@
 .u-margin-top-large{
     margin-top:6rem !important;
 }
+
+.container{
+    max-width:114rem;
+    margin:0 auto;
+    @include respond(phone){
+        width:90%;
+    }
+}

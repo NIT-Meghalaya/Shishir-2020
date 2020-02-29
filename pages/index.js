@@ -1,6 +1,7 @@
 import fetch from "isomorphic-unfetch";
 import "../public/static/styles/index.scss";
-
+import Header from '../ui/header/header';
+import SecondaryHeading from '../ui/secondary-heading/secondary-heading';
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -9,9 +10,11 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container">
-          <h1>Hello World</h1>
-        </div>
+        <Header></Header>
+        <SecondaryHeading title="About Us" />
+        <SecondaryHeading title="Events" />
+        <SecondaryHeading title="Gallery" />
+        <SecondaryHeading title="Contact Us" />
       </React.Fragment>
     );
   }
