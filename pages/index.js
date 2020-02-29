@@ -3,6 +3,7 @@ import "../public/static/styles/index.scss";
 import Header from '../ui/header/header';
 import SecondaryHeading from '../ui/secondary-heading/secondary-heading';
 import AboutUs from '../ui/about-us/about-us.component';
+import EventCards from '../ui/event-cards/event-cards.component';
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -15,6 +16,7 @@ class App extends React.Component {
         <SecondaryHeading title="About Us" />
         <AboutUs/>
         <SecondaryHeading title="Events" />
+        <EventCards/>
         <SecondaryHeading title="Gallery" />
         <SecondaryHeading title="Contact Us" />
       </React.Fragment>
