@@ -2,6 +2,7 @@ import fetch from "isomorphic-unfetch";
 import "../public/static/styles/index.scss";
 import Header from '../ui/header/header';
 import SecondaryHeading from '../ui/secondary-heading/secondary-heading';
+import AboutUs from '../ui/about-us/about-us.component';
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -10,8 +11,9 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Header></Header>
+        <Header/>
         <SecondaryHeading title="About Us" />
+        <AboutUs/>
         <SecondaryHeading title="Events" />
         <SecondaryHeading title="Gallery" />
         <SecondaryHeading title="Contact Us" />

@@ -1,0 +1,16 @@
+@import '../../sass/styles.scss';
+
+.about__information{
+  padding:2rem 8rem;
+  display:block;
+  margin:0 auto;
+  @include respond(tablet){
+    padding:2rem 4rem;
+  }
+  @include respond(phone){
+    padding:2rem 2rem;
+  }
+   @include respond(phone-sm){
+    padding:2rem 0rem;
+  }
+}
