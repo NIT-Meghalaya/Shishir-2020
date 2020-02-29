@@ -1,0 +1,35 @@
+*,*::after,*::before{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size:62.5%;
+    scroll-behavior: smooth;
+
+    @include respond(large-desktop){
+        font-size:80%;
+    }
+    @include respond(tablet){
+        font-size:56.5%;
+    }
+   
+    @include respond(phone){
+        font-size:50%;
+    }
+   
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color:$text-color;
+    line-height: 1.5;
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style: none;
+}

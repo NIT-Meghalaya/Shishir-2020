@@ -44,9 +44,9 @@ Upper level application component that runs when NEXTJS is ran.
 ### UI Related Information
 Follow the  color palette:
 ```
-$color-primary: #eb2f64;
-$color-primary-light: #FF3366;
-$color-primary-dark: #BA265D;
+$primary-color: #eb2f64;
+$primary-color-light: #FF3366;
+$primary-color-dark: #BA265D;
 
 $color-background-dark:#1b262c;
 
@@ -58,6 +58,8 @@ $color-grey-light-4: #ccc;
 $color-grey-dark-1: #333;
 $color-grey-dark-2: #777;
 $color-grey-dark-3: #999;
+
+$text-color:#333;
 
 
 $shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);

@@ -1,6 +1,8 @@
+@import '../../sass/styles.scss';
+
 .nav-container {
   display: block;
-  background: #6b6b6b;
+  background: linear-gradient(to bottom right,$primary-color-light,$primary-color-dark);
   position: fixed;
   top: 0;
   left: 0;
@@ -19,10 +21,11 @@
     font-size: 2rem;
     margin: 1.5rem 0;
     padding: 1rem;
+    
 
-    &:hover {
-      background: rgb(59, 59, 59);
-    }
+    // &:hover {
+    //   background: $primary-color-light;
+    // }
   }
 }
 
@@ -32,22 +35,54 @@
   width: 5rem;
   height: 5rem;
   z-index: 5;
-  position: absolute;
+  position: fixed;
   top: 5%;
   right: 5%;
-  border: 1px solid #aaaaaa;
+  border: 1px solid $color-grey-light-1;
+  cursor:pointer;
 
   .lines {
     display: block;
     margin: 0 auto;
     background: #000;
     height: 0.2rem;
-    width: 90%;
-    margin: 0.5rem 0;
+    width: 1.3rem;
+    margin: 0.5rem auto;
   }
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
+
+
+.nav-link{
+  text-transform:uppercase;
+  font-weight:bold;
+  color: $color-grey-light-1;
+  &:link,&:visited{
+    color: $color-grey-light-1;
+  }
+  &:active,&:hover{
+     color:$color-grey-dark-1;
+  }
+}
+.crosslines{
+  display: block;
+    margin: 0 auto;
+    background: #000;
+    height: 0.2rem;
+    width: 2.1rem;
+    margin: 0.5rem auto;
+    &--1{
+      transform:translateY(0.4rem) rotateZ(45deg);
+    
+    }
+  &--2{
+    transform:translateY(-0.3rem) rotateZ(-45deg);
+    }
+   
+}
+.navigation{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
 }

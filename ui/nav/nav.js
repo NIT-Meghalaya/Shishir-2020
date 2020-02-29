@@ -23,30 +23,34 @@ export default class Nav extends React.Component {
       return (
         <div className="nav-container">
           <button className="circle-button" onClick={() => this.handleClick()}>
-            X
+            <div className="crosslines crosslines--1"></div>
+            <div className="crosslines crosslines--2"></div>
           </button>
-          <div className="logo-wrap">LOGO</div>
-          <div className="item">
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-          </div>
-          <div className="item">
-            <Link href="/events">
-              <a>Events</a>
-            </Link>
-          </div>
-          <div className="item">
-            <Link href="/teams">
-              <a>Teams</a>
-            </Link>
-          </div>
-          <div className="item">
-            <Link href="/contact">
-              <a>Contact</a>
-            </Link>
+         
+          <div className="navigation">
+            <div className="item">
+              <Link href="/">
+                <a className="nav-link">Home</a>
+              </Link>
+            </div>
+            <div className="item">
+              <Link href="/events">
+                <a className="nav-link">Events</a>
+              </Link>
+            </div>
+            <div className="item">
+              <Link href="/teams">
+                <a className="nav-link">Teams</a>
+              </Link>
+            </div>
+            <div className="item">
+              <Link href="/contact">
+                <a className="nav-link">Contact</a>
+              </Link>
+            </div>
           </div>
         </div>
+        
       );
     else
       return (

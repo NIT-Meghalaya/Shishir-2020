@@ -1,0 +1,24 @@
+@mixin respond($device){
+
+    @if $device==large-desktop{
+        @media only screen and (min-width:1800px){
+            @content;
+        }
+    }
+     @if $device==tablet{
+        @media only screen and (max-width:900px){
+            @content;
+        }
+    }
+   
+    @if $device==phone{
+        @media only screen and (max-width:600px){
+            @content;
+        }
+    }
+      @if $device==phone-sm{
+        @media only screen and (max-width:400px){
+            @content;
+        }
+    }
+}
