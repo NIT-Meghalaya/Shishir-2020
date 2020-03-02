@@ -2,9 +2,81 @@
 
 .header{
   min-height:100vh;
-  background:$color-background-dark;
+  
+  min-width:100vw;
 }
 
 .hero__box{
+  min-height:100vh;
   color:$color-grey-light-1;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  
+  @include respond("tablet"){
+    display: block;
+  }
 }
+
+.left{
+  background:$primary-color;
+  font-size: 3rem;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  @include respond("tablet"){
+    min-height:100vh;
+    font-size: 2.75rem;
+  }
+  h1{
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(150%);
+    @include respond("tablet"){
+      transform: translateY(200%);
+      } 
+  }
+  img{
+    width: 30rem;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(40%);
+    
+    @include respond("tablet"){
+    transform: translateY(50%);
+    } 
+  }
+}
+
+.right{
+  background:$color-background-dark;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  @include respond("tablet"){
+    min-height:100vh;
+  } 
+  @include respond("phone"){
+    min-height:50vh;
+  }
+
+  svg{
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(10%);
+    @include respond("tablet"){
+      width: 70%;
+      transform: translateY(40%);
+    } 
+    @include respond("phone"){
+      width: 60%;
+      transform: translateY(20%);
+    } 
+    @include respond("phone-sm"){
+      transform: translateY(30%);
+    } 
+  }
+  
+
+}
+
+

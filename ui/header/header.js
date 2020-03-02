@@ -1,9 +1,23 @@
 import React from 'react';
 import './header.styles.scss'
- const Header = (props) => (
+import Svg from './svg-component/svg';
+
+const Header = (props) => (
   <header className="header">
     <div className="hero__box">
-      <h1 >Shishir</h1>
+      <div className="left">
+        <img src="/images/logo.jpg" className="logo"/>
+        <h1>Shishir 2020</h1>
+      </div>
+      <div className="right">
+        <Svg
+          fill="#000"
+          width="90%"
+          height="90%"
+          className="svg"
+          viewBox="0 0 1099.2 725.77"
+        />
+      </div>
     </div>
   </header>
 );
