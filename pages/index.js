@@ -21,8 +21,8 @@ const App = ({ events }) => (
 );
 
 App.getInitialProps = async () => {
-  const path = "http://localhost:3000/events.json"
-  const res = await fetch(path);
+  const path = "/events.json"
+  const res = await fetch(absoluteUrl(path));
   const events = await res.json();
   return { events };
 };
