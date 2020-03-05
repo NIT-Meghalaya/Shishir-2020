@@ -3,6 +3,7 @@
   font-size: 3.5rem;
   text-align: center;
   margin-top: 2rem;
+  padding:2rem 0;
   @include respond(large-desktop) {
     font-size: 4rem;
   }

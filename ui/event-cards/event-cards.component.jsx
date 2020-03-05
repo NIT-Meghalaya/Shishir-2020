@@ -12,14 +12,19 @@ class EventCards extends React.Component{
   
   render() {
     const { events } = this.state;
-    // console.log(events);
     return (
       <div className="container">
         <section className="events-section">
-         
+          {
+            events.forEach((event, index) => {
+          return (
+                <EventCard key={index+1} event={event}></EventCard>
+              )
+            })
+         }
           
         </section>
-        <EventCard></EventCard>
+        
       </div>
     )
   }
