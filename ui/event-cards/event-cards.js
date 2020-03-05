@@ -7,7 +7,8 @@ const EventCards = ({ events }) => (
       {
         events.forEach((event, index) => {
           return (
-            <EventCard key={index + 1} event={event}></EventCard>
+            <div>{event.title}</div>
+            // <EventCard key={index + 1} title={event.title} desc={event.desc}></EventCard>
           )
         })
       }

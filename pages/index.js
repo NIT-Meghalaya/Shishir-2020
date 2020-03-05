@@ -8,23 +8,23 @@ import absoluteUrl from './../lib/absolute_url';
 import '../public/events.json'
 
 
-const App = ({ details }) => (
+const App = ({ events }) => (
   <React.Fragment>
     <Header />
     <SecondaryHeading title="About Us" />
     <AboutUs />
     <SecondaryHeading title="Events" />
-    <EventCards details={details} />
+    <EventCards events={events} />
     <SecondaryHeading title="Gallery" />
     <SecondaryHeading title="Contact Us" />
   </React.Fragment>
 );
 
 App.getInitialProps = async () => {
-  const path = "/public/events.json"
-  const res = await fetch(absoluteUrl(path));
-  const details = await res.json();
-  return { res };
+  const path = "http://localhost:3000/events.json"
+  const res = await fetch(path);
+  const events = await res.json();
+  return { events };
 };
 
 export default App;

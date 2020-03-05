@@ -1,8 +1,8 @@
 import React from 'react';
 import './event-card.styles.scss';
 
-const EventCard = (props) => {
-  console.log(props);
+const EventCard = ({ title, desc }) => {
+  console.log(title);
   return (
     <div className="card">
       <div className="card__side ">
@@ -24,6 +24,6 @@ const EventCard = (props) => {
       </div>
     </div>
   )
-} 
+}
 
 export default EventCard;
