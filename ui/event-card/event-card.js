@@ -2,7 +2,7 @@ import React from 'react';
 import './event-card.styles.scss';
 
 const EventCard = (props) => {
-  console.log(props) //gives empty
+  console.log(props);
   return (
     <div className="card">
       <div className="card__side ">

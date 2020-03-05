@@ -1,5 +1,5 @@
 import React from 'react';
-import EventCard from './../event-card/event-card.component';
+import EventCard from '../event-card/event-card';
 import EVENT_DETAILS from './details';
 
 class EventCards extends React.Component{

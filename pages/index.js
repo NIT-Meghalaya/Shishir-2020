@@ -2,8 +2,8 @@ import fetch from "isomorphic-unfetch";
 import "../public/static/styles/index.scss";
 import Header from '../ui/header/header';
 import SecondaryHeading from '../ui/secondary-heading/secondary-heading';
-import AboutUs from '../ui/about-us/about-us.component';
-import EventCards from '../ui/event-cards/event-cards.component';
+import AboutUs from '../ui/about-us/about-us';
+import EventCards from '../ui/event-cards/event-cards';
 class App extends React.Component {
   constructor(props) {
     super(props);
