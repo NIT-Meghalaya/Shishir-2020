@@ -17,6 +17,16 @@ After cloning the repo, run `yarn install`
 
 ---
 
+## IMPORTANT NOTE: IMPLEMENTING SERVER-SIDE RENDERING
+1. Create **JSON** objects for any information needed to be stored `(like events.json)` and store them in the **"public"** folder.
+2. **FETCH** these objects using **"getInitialProps"** `(like in index.js)`
+3. **getInitialProps** can only be called from components in the **"PAGES"** folder
+4. **DO NOT** use **"import React from 'react'"**. it is redundant in the `Nextjs framework.`
+5. For the sake of `uniformity and standard`, all components will have the file extension **(*.js)**]
+6. Each _NEW_ page (in the pages folder) will be in a folder. Each of these new folders will have an "index.js" page which marks the entry point for the particular route.
+
+---
+
 ## Structure:
 
 ### Pages
@@ -40,6 +50,7 @@ contains the theme that we will use
 ### pages/\_app.js
 
 Upper level application component that runs when NEXTJS is ran.
+
 
 ### UI Related Information
 Follow the  color palette:
