@@ -1,4 +1,3 @@
-import React from 'react';
 import EventCard from '../event-card/event-card';
 
 const EventCards = ({ events }) => (

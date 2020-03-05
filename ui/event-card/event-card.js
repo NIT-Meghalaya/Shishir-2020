@@ -1,4 +1,3 @@
-import React from 'react';
 import './event-card.styles.scss';
 
 const EventCard = ({ title, desc }) => {
