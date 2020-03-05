@@ -1,9 +1,6 @@
-import React from 'react';
 import './about-us.styles.scss';
 
-
 const AboutUs = () => (
-  
   <div className="container">
     <section className="about__information">
       <p className="paragraph">
