@@ -93,5 +93,5 @@ $shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
 
 `.paragraph`
 
-
+`.u-center-text`
 
