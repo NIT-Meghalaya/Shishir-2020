@@ -3,8 +3,8 @@ import "../public/styles/index.scss";
 import Header from '../ui/header/header';
 import SecondaryHeading from '../ui/secondary-heading/secondary-heading';
 import AboutUs from '../ui/about-us/about-us';
-
-import EventsSection from '../ui/events-section';
+import EventsSection from '../ui/events-section/events-section';
+import CelebrityGallery from '../ui/celebrity-gallery/celebrity-gallery';
 
 import absoluteUrl from './../lib/absolute_url';
 import '../public/events.json'
@@ -13,12 +13,13 @@ import '../public/events.json'
 const App = ({ events }) => (
   <React.Fragment>
     <Header />
-    <SecondaryHeading title="About Us" />
+    <SecondaryHeading title="About" />
     <AboutUs />
     <SecondaryHeading title="Events" />
     <EventsSection/>
-    <SecondaryHeading title="Gallery" />
-    <SecondaryHeading title="Contact Us" />
+    <SecondaryHeading title="Celebrities" />
+    <CelebrityGallery/>
+    <SecondaryHeading title="Contact" />
   </React.Fragment>
 );
 

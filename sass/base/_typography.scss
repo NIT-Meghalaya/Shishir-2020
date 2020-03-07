@@ -4,6 +4,7 @@
   text-align: center;
   margin-top: 2rem;
   padding:2rem 0;
+  text-transform: uppercase;
   @include respond(large-desktop) {
     font-size: 4rem;
   }
@@ -31,5 +32,11 @@
   @include respond(phone) {
     font-size: 1.8rem;
   }
+}
+
+.sub-heading{
+  font-size:2rem;
+  text-align:center;
+  margin:4rem;
 }
 
