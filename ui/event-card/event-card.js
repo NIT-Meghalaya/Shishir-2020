@@ -2,6 +2,7 @@ import './event-card.styles.scss';
 
 const EventCard = ({ title, desc }) => {
   console.log(title);
+  console.log(desc);
   return (
     <div className="card">
       <div className="card__side ">
@@ -9,7 +10,7 @@ const EventCard = ({ title, desc }) => {
           &nbsp;
       </div>
         <h4 className="card__heading">
-          <span className="card__heading-span">Music</span>
+          <span className="card__heading-span">{title}</span>
         </h4>
         <div className="card__details">
           <ul>

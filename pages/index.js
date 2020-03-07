@@ -3,7 +3,9 @@ import "../public/styles/index.scss";
 import Header from '../ui/header/header';
 import SecondaryHeading from '../ui/secondary-heading/secondary-heading';
 import AboutUs from '../ui/about-us/about-us';
-import EventCards from '../ui/event-cards/event-cards';
+
+import EventsSection from '../ui/events-section';
+
 import absoluteUrl from './../lib/absolute_url';
 import '../public/events.json'
 
@@ -14,7 +16,7 @@ const App = ({ events }) => (
     <SecondaryHeading title="About Us" />
     <AboutUs />
     <SecondaryHeading title="Events" />
-    <EventCards events={events} />
+    <EventsSection/>
     <SecondaryHeading title="Gallery" />
     <SecondaryHeading title="Contact Us" />
   </React.Fragment>
