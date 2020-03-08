@@ -31,7 +31,6 @@ App.getInitialProps = async () => {
   const path = "/events.json"
   const res = await fetch(absoluteUrl(path));
   const events = await res.json();
-  console.log(events[0])
   return { events };
 };
 

@@ -10,7 +10,6 @@ export default class Nav extends React.Component {
   }
 
   handleClick = () => {
-    console.log("CLICK");
     this.setState(prevState => ({
       isClicked: !prevState.isClicked
     }));
