@@ -1,0 +1,12 @@
+.map-section{
+    min-height: 50vh;
+    overflow: hidden;
+}
+
+.map-section .container{
+    iframe{
+        margin: 0 auto;
+        width: 100%;
+        height: 30vh;
+    }
+}
