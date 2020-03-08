@@ -6,13 +6,46 @@ Shishir 2020 - NIT Meghalaya's Cultural Festival
 
 ## Getting Started
 
-After cloning the repo, run `yarn install`
+1. Clone the "working" branch. If on master branch already, run: 
+    `git pull origin working` in the terminal
+2. Switch to working branch by runnning:
+    `git checkout working`
+3. Make changes and push into this branch only. 
+## DO NOT WORK IN THE MASTER BRANCH 
+4. run `yarn install` if freshly cloned.
 
-## Running the application
+---
+
+## Running the application for development
 
 1. Run `yarn dev`
-2. Go to `localhost:3000`
+2. Go to `localhost:3000` in your browser
 
+---
+
+## Running the application to check if deployable
+
+1. Run `yarn build` to build the project
+2. After building, run: `yarn start`
+3. Go to the specified url (usually localhost:3000)
+4. If there are no errors, then the branch is deployable.
+
+---
+
+## Merging working branch to master branch
+
+1. Before merging the 'working' branch to the 'master' branch, the /lib/absoluteUrl.js file must be changed
+**Uncomment:**
+`const origin = "https://shishir2020.herokuapp.com"`
+and 
+`const url = origin + path;`
+**Comment:** `const url = "http://localhost:3000" + path;`
+2. Switch to the master branch. run: `git checkout master`
+3. Merge the working branch to master: `git merge working`
+4. Commit and push the changes. Wait for a few minutes while HEROKU builds the project, then visit the website to view changes.
+
+---
+ 
 ## NOTE : DO NOT USE NPM!!! IT WILL BREAK THE APPLICATION
 
 ---
