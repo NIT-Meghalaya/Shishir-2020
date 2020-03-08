@@ -19,9 +19,9 @@ const App = ({ events }) => (
     <SecondaryHeading title="About" />
     <AboutUs />
     <SecondaryHeading title="Events" />
-    <EventsSection/>
+    <EventsSection />
     <SecondaryHeading title="Celebrities" />
-    <CelebrityGallery/>
+    <CelebrityGallery />
     <SecondaryHeading title="Contact" />
     <Footer />
   </React.Fragment>
@@ -31,6 +31,7 @@ App.getInitialProps = async () => {
   const path = "/events.json"
   const res = await fetch(absoluteUrl(path));
   const events = await res.json();
+  console.log(events[0])
   return { events };
 };
 
