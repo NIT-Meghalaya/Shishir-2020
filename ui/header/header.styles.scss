@@ -1,78 +1,91 @@
 @import '../../sass/styles.scss';
 
 .header{
-  min-height:100vh;
-  
   min-width:100vw;
 }
 
 .hero__box{
   min-height:100vh;
   color:$color-grey-light-1;
-  display: grid;
-  grid-template-columns: 0.5fr 0.5fr;
+  display: flex;
+  justify-content: center;
   
   @include respond("tablet"){
-    display: block;
+    min-height:50vh;
+  }
+  @include respond("phone"){
+    flex-direction: column;
+  }
+  @include respond("phone-sm"){
+    min-height:50vh;
   }
 }
 
 .left{
-  background:$primary-color;
-  font-size: 3rem;
-  margin: 0 auto;
+  
+  background:$color-background-dark;
   width: 100%;
+  margin: 0 auto;
+  font-size: calc(2em + 1vw);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  
+
   @include respond("tablet"){
-    min-height:100vh;
-    font-size: 2.75rem;
+    min-height:70vh;
+    // font-size:2.7rem;
   }
+  @include respond("phone"){
+    min-height:50vh;
+    // font-size:2.5rem;
+  }
+  @include respond("phone-sm"){
+    min-height:40vh;
+    // font-size:1.5rem;
+  }
+
   h1{
-    top: 50%;
-    bottom: 50%;
-    transform: translateY(150%);
-    @include respond("tablet"){
-      transform: translateY(200%);
-      } 
+    padding: 0.75rem;
   }
+
   img{
-    width: 30rem;
-    top: 50%;
-    bottom: 50%;
-    transform: translateY(40%);
-    
-    @include respond("tablet"){
-    transform: translateY(50%);
-    } 
+    width: 50%;
+    @include respond("phone"){
+      width: 40%;
+    }
+    @include respond("phone-sm"){
+      width: 40%;
+    }
   }
 }
 
 .right{
-  background:$color-background-dark;
+  background:$color-background-dark-2;
   margin: 0 auto;
   text-align: center;
   width: 100%;
-  @include respond("tablet"){
-    min-height:100vh;
-  } 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+
   @include respond("phone"){
     min-height:50vh;
   }
+  @include respond("phone-sm"){
+    min-height:30vh;
+  }
 
   svg{
-    top: 50%;
-    bottom: 50%;
-    transform: translateY(10%);
-    @include respond("tablet"){
-      width: 70%;
-      transform: translateY(40%);
-    } 
     @include respond("phone"){
       width: 60%;
-      transform: translateY(20%);
     } 
     @include respond("phone-sm"){
-      transform: translateY(30%);
+      width: 50%;
     } 
   }
   

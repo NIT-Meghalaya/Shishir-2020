@@ -6,8 +6,10 @@ const Header = (props) => (
   <header className="header">
     <div className="hero__box">
       <div className="left">
-        <img src="/images/logo.jpg" className="logo"/>
+        <div>
+        <img src="/images/logo.png" className="logo"/>
         <h1>Shishir 2020</h1>
+        </div>
       </div>
       <div className="right">
         <Svg
