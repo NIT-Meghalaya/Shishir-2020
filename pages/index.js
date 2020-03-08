@@ -7,6 +7,8 @@ import EventsSection from '../ui/events-section/events-section';
 import CelebrityGallery from '../ui/celebrity-gallery/celebrity-gallery';
 import Footer from '../ui/footer/footer';
 
+
+
 import absoluteUrl from './../lib/absolute_url';
 import '../public/events.json'
 
@@ -21,7 +23,7 @@ const App = ({ events }) => (
     <SecondaryHeading title="Celebrities" />
     <CelebrityGallery/>
     <SecondaryHeading title="Contact" />
-    <Footer/>
+    <Footer />
   </React.Fragment>
 );
 

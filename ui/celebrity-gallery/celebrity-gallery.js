@@ -5,7 +5,7 @@ const CelebrityGallery = () => {
        
         <section className="gallery-section">
             <p className="paragraph u-center-text u-margin-top-medium u-margin-bottom-medium">
-                Few celebrities who have graced our stage till now.
+                Few celebrities who have graced our stage till date.
             </p>
            
             <div className="past-gallery">
