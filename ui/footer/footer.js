@@ -13,10 +13,10 @@ const Footer = () => {
                             <a href="/">Home</a>
                         </li>
                         <li className="footer__link">
-                            <a href="/">Events</a>
+                            <a href="/events">Events</a>
                         </li>
                         <li className="footer__link">
-                            <a href="/">Registration</a>
+                            <a href="/registration">Registration</a>
                         </li>
                         
                     </ul>

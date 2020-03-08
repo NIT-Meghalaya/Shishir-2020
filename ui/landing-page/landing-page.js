@@ -10,8 +10,8 @@ const LandingPage = () => {
                 <h1 className="primary-heading">Shishir'20</h1>
                 <p className="tagline">The Annual Cultural Fest of <span>NIT Meghalaya</span> </p>
                 <div className="herobox__socials">
-                    <a href="#" className="btn-primary">Explore</a>
-                    <a href="#" className="btn-primary">Register</a>
+                    <a href="/" className="btn-primary">Explore</a>
+                    <a href="/registration" className="btn-primary">Register</a>
                 </div>
             </div>
             <div className="herobox__images">
