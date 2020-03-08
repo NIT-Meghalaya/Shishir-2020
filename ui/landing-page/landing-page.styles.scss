@@ -1,0 +1,118 @@
+@import '../../sass/styles.scss';
+
+.herobox{
+    background-color: #1b262c;
+    min-height:100vh;
+    color:$color-grey-light-2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    @include respond(phone){
+        flex-direction: column-reverse;
+    }
+
+    &__text{
+        flex:0 0 60%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    &__images{
+        flex:0 0 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        @include respond(phone){
+            display:none;
+        }
+        svg{
+            width:50rem;
+            height:50rem;
+            text-align: center;
+            @include respond(tablet){
+                width:40rem;
+                height:40rem;   
+            }
+            @include respond(phone){
+                width:20rem;
+                height:20rem;   
+            }
+        }
+    }
+    &__socials{
+        margin-top:2rem;
+    }
+}
+
+.primary-heading{
+    font-size:3rem;
+    letter-spacing: 10px;;
+    text-transform: uppercase;
+    font-weight:normal;
+    @include respond(tablet){
+        font-size:2.6rem;
+    }
+     
+}
+
+.tagline{
+    font-size:2.1rem;
+    margin:2rem 0rem;
+    letter-spacing: 2px;
+   span{
+        @include respond(phone){
+            display:block;
+            text-align:center;
+        }
+    }
+    
+   
+}
+
+.btn-primary{
+    
+    &:link,&:visited{
+        border:1px solid $primary-color-light;
+        color:white;
+        padding:1rem 2.2rem;
+        font-size:2rem;
+        text-transform:none;
+        background-color:$primary-color-light;
+        border-radius:3px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 0.2s ease-in-out;
+        letter-spacing: 2px;
+        margin-right:2rem;
+
+       @include respond(tablet){
+            padding:0.6rem 1.8rem;
+            font-size:1.7rem;
+       }
+    }
+    &:hover, &:active{
+         background-color: $primary-color-dark;
+        border:1px solid $primary-color-dark;
+    }
+  
+}
+
+
+
+.nitlogo{
+  position: absolute;
+  top:3rem;
+  left:50%;
+  transform:translate(-50%,0);
+  z-index:4;
+  height:7rem;
+  width:auto;
+}
+
+.shishirlogo{
+    width:15rem;
+    text-align: center;
+}
+

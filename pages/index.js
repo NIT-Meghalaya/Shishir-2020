@@ -1,6 +1,6 @@
 import fetch from "isomorphic-unfetch";
 import "../public/styles/index.scss";
-import Header from '../ui/header/header';
+import LandingPage from '../ui/landing-page/landing-page';
 import SecondaryHeading from '../ui/secondary-heading/secondary-heading';
 import AboutUs from '../ui/about-us/about-us';
 import EventsSection from '../ui/events-section/events-section';
@@ -15,7 +15,7 @@ import '../public/events.json'
 
 const App = ({ events }) => (
   <React.Fragment>
-    <Header />
+    <LandingPage/>
     <SecondaryHeading title="About" />
     <AboutUs />
     <SecondaryHeading title="Events" />
