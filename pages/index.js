@@ -5,7 +5,9 @@ import SecondaryHeading from '../ui/secondary-heading/secondary-heading';
 import AboutUs from '../ui/about-us/about-us';
 import EventsSection from '../ui/events-section/events-section';
 import CelebrityGallery from '../ui/celebrity-gallery/celebrity-gallery';
+import Map from '../ui/map/map';
 import Footer from '../ui/footer/footer';
+
 
 
 
@@ -23,6 +25,7 @@ const App = ({ events }) => (
     <SecondaryHeading title="Celebrities" />
     <CelebrityGallery />
     <SecondaryHeading title="Contact" />
+    <Map/>
     <Footer />
   </React.Fragment>
 );
