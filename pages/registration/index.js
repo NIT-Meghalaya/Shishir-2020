@@ -9,4 +9,4 @@ const Registration = () => {
 
     )
 }
-export default Events;
+export default Registration;
