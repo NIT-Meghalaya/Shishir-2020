@@ -28,9 +28,7 @@ export default class Nav extends React.Component {
 
           <div className="navigation">
             <div className="item">
-              <Link href="/">
-                <a className="nav-link" onClick={() => this.handleClick()}>Home</a>
-              </Link>
+              <a className="nav-link" onClick={() => this.handleClick()}>Home</a>
             </div>
             <div className="item">
               <Link href="/events">
