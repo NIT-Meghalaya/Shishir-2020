@@ -24,7 +24,7 @@ const App = ({ events }) => (
     <EventsSection />
     <SecondaryHeading title="Celebrities" />
     <CelebrityGallery />
-    <SecondaryHeading title="Contact" />
+    <SecondaryHeading title="Visit Us" />
     <Map/>
     <Footer />
   </React.Fragment>

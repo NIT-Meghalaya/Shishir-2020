@@ -5,6 +5,7 @@
   margin-top: 2rem;
   padding:2rem 0;
   text-transform: uppercase;
+  letter-spacing:3px;
   @include respond(large-desktop) {
     font-size: 4rem;
   }
