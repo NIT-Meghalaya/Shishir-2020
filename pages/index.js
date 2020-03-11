@@ -17,15 +17,15 @@ import '../public/events.json'
 
 const App = ({ events }) => (
   <React.Fragment>
-    <LandingPage/>
+    <LandingPage />
     <SecondaryHeading title="About" />
     <AboutUs />
     <SecondaryHeading title="Events" />
     <EventsSection />
     <SecondaryHeading title="Celebrities" />
     <CelebrityGallery />
-    <SecondaryHeading title="Visit Us" />
-    <Map/>
+    <SecondaryHeading title="Reach Us" />
+    <Map />
     <Footer />
   </React.Fragment>
 );
