@@ -1,0 +1,25 @@
+@import '../../sass/styles.scss';
+
+.close{
+    margin: 0 auto;
+    text-align: center;
+    margin: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.overlay-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.overlay-content p{
+    margin: 0 auto;
+    font-size: 1.6rem;
+    margin-top: 3rem;
+}

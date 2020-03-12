@@ -1,0 +1,42 @@
+[
+    {
+        "day": "1",
+        "events": [
+            {
+                "id": "1",
+                "title": "Music",
+                "desc": "2 day event, $300 dollar cash price, Certification"
+            },
+            {
+                "id": "2",
+                "title": "Dance",
+                "desc": "3 day event, $500 dollar cash price, Certification"
+            },
+            {
+                "id": "3",
+                "title": "Dramatics",
+                "desc": "1 day event, $200 dollar cash price, Certification"
+            }
+        ]
+    },
+    {
+        "day": "2",
+        "events": [
+            {
+                "id": "1",
+                "title": "Music2",
+                "desc": "2 day event, $300 dollar cash price, Certification"
+            },
+            {
+                "id": "2",
+                "title": "Dance2",
+                "desc": "3 day event, $500 dollar cash price, Certification"
+            },
+            {
+                "id": "3",
+                "title": "Dramatics2",
+                "desc": "1 day event, $200 dollar cash price, Certification"
+            }
+        ]
+    }
+]

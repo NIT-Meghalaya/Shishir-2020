@@ -1,0 +1,40 @@
+@import '../../sass/styles.scss';
+
+.event-page-container{
+    min-height: 100vh;
+    background-color: $color-background-dark;
+}
+
+.event-header{
+    padding: 3rem;
+    min-height: 50vh;
+    background-color: $primary-color;
+    text-align: center;
+}
+
+.heading{
+    font-size: 5rem;
+    color: white;
+}
+
+.day-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.event-container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10rem;
+}
+
+.noDisplay{
+    display: none;
+}
+
+.overlay{
+    display: flex;
+}
