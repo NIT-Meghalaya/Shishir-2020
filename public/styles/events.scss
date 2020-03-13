@@ -22,13 +22,21 @@
     justify-content: space-evenly;
     margin: 0 auto;
     margin-top: 5rem;
+    flex-wrap: wrap;
 }
 
 .event-container{
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 10rem;
+
+    // @include respond("phone"){
+    //     display: block;
+    //   }
 }
 
 .noDisplay{
