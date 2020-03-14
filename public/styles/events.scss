@@ -10,6 +10,26 @@
     min-height: 50vh;
     background-color: $primary-color;
     text-align: center;
+    svg{
+        height: 40rem;
+        width: 40rem;
+        @include respond(tablet){
+            width:30rem;
+            height:30rem;   
+        }
+        // @include respond(phone){
+        //     width:20rem;
+        //     height:20rem;   
+        // }
+    }
+}
+
+.Svg{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
 }
 
 .heading{

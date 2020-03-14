@@ -1,6 +1,7 @@
 import '../../public/styles/events.scss';
 import fetch from 'isomorphic-unfetch';
 import absoluteUrl from '../../lib/absolute_url';
+import Svg from '../../ui/event-svg-component/svg';
 import Card from '../../ui/content-card/content-card';
 import Overlay from '../../ui/overlay/overlay';
 import Footer from '../../ui/footer/footer';
@@ -64,6 +65,9 @@ class Events extends React.Component {
       return (
         <div className="event-page-container">
           <div className="event-header">
+            <div className="svg">
+              <Svg />
+            </div>
             <h1 className="heading">EVENTS</h1>
             <div className="day-container">
               {
