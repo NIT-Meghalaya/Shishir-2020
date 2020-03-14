@@ -1,0 +1,274 @@
+[
+    {
+        "day": "1",
+        "category": [
+            {
+                "title": "",
+                "desc": [],
+                "events": [
+                    {
+                        "title": "Traditional Dance",
+                        "desc": "Traditional dance performances such as Bihu, Khasi, Jayantia, Garo, etc. dances will be organised by the students.",
+                        "details": [
+                            {
+                                "title": "",
+                                "content": []
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Harmony",
+                        "desc": "We welcome you all to Shishir 2k19 with a bang and dose of music and songs on it’s very first day. Anyone who has a passion for music and know that they can win over a crowd, the stage is all yours. Now what do you have to win over an entire audience?",
+                        "details": [
+                            {
+                                "title": "Rules and Guidelines",
+                                "content": [
+                                    "It will have three categories; solo, group and duet.",
+                                    "The participant/s has to perform any one song of his/her choice. The song has no language/dialect boundary.",
+                                    "Judging is solely done on the voice of the singer for Solo irrespective of whether he/she plays an instrument.",
+                                    "Participants may bring his/her own gear/add-on if he/she wishes. No musical instrument shall be provided.",
+                                    "Participants must confirm availability of the instruments in advance to the event organizers.",
+                                    "Explicit or offensive lyrics/gestures guarantee immediate expulsion.",
+                                    "Participants under the influence of intoxicants will not be entertained.",
+                                    "Maximum performance time is 4 minutes per participant.",
+                                    "In case of dispute, the organizers have rights to bend rules provided it does minimum conflict to both parties.",
+                                    "Under no circumstance shall any participant make attempts to manipulate/influence decisions of judges. Their decision shall be final and abiding."
+                                ]
+                            },
+                            {
+                                "title": "Judging Criteria",
+                                "content": [
+                                    "Voice Sound Quality: 40%",
+                                    "Rhythm & Tempo: 30%",
+                                    "Vocal Expression: 30%"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Dramatics",
+                        "desc": "Drama is considered one of the fine arts in India, besides it has always been the medium to deliver a message effectively connecting all the emotions of the audience, especially in 1970's. It also represents various cultures, traditions and ideologies of a region. Dramatics is an event in Shishir, where the participants perform dramas delivering a social message, or showing their talents by recreating another drama or play, or simply for entertainment. The Dramas are evaluated by the Judges and the participants are awarded.",
+                        "details": [
+                            {
+                                "title": "Rules and Guidelines",
+                                "content": [
+                                    "The participants that are interested to join can fill the form uploaded on Facebook by Our Coordinator",
+                                    "The can be related to a historical event, current problems faced around the world or an entertainer.",
+                                    "The play should be performed either in English or Hindi.",
+                                    "Each team should have at least 4 members not exceeding 10.",
+                                    "The play shouldn't exceed more than 15 minutes.",
+                                    "Microphones will be provided to each performer of that team.",
+                                    "The required costumes for the play must be intimidated to the coordinator before two weeks of Shishir.",
+                                    "Any abusive language, vulgarity and exceeding the allotted time may lead to negative markings.",
+                                    "The organizers have right to disqualify a team incase of any misbehaviour or failed to follow the instructions."
+                                ]
+                            },
+                            {
+                                "title": "Judging Criteria",
+                                "content": [
+                                    "Dialog delivery: 10%",
+                                    "Performance: 40%",
+                                    "Expressions: 10%",
+                                    "Depiction of the plot: 30%",
+                                    "Conclusion: 10%"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Shimmer",
+                        "desc": "It is an event which will give a opportunity to 1st year B.Tech students to prove himself better in any genre of competition than others.",
+                        "details": [
+                            {
+                                "title": "Rounds:",
+                                "content": [
+                                    "Pen and paper based questions",
+                                    "Group Discussion",
+                                    "Personal interview",
+                                    "Now the selected candidate on based on above three rounds will be judged on stage by judges after talent round and finally they will awarded for Mr shimmer and Ms. Shimmer."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "2",
+        "category": [
+            {
+                "title": "",
+                "desc": [],
+                "events": [
+                    {
+                        "title": "Treasure Hunt",
+                        "desc": "‘Hunting’ mixture of smart work, hard work and team work. This event provides you an opportunity to prove your team's hunting power.",
+                        "details": [
+                            {
+                                "title": "Rules and Guidelines",
+                                "content": [
+                                    "One team from the department and each team of 4 members will be participated.",
+                                    "Clues will be given to find the next clue and so on. Winner will be that team who finds the end card.",
+                                    "If we find any team got help from some other, will be disqualified.",
+                                    "The organizers have right to disqualify a team incase of any misbehaviour or failed to follow the instructions.",
+                                    "Under no circumstance shall any participant make attempts to manipulate/influence final decision. Their decision shall be final and abiding.",
+                                    "Time limit: 30min."
+                                ]
+                            },
+                            {
+                                "title": "Judging Criteria",
+                                "content": [
+                                    "Fair play"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Pronite",
+                        "desc": "Recognized as one of the cities best events, Pronite is a star-studded evening that was annually presented in honor of our featured guest. A live musical performances by one of today's brightest stars. This power-packed night of excitement not only leaves our audience with unforgettable memories each year but, more importantly, provides a power packed entertainment.And this time its big. Crazy big,Shishir 2019, Of all the night you'll have, we promise you will treasure this night in your hearts forever.",
+                        "details": []
+                    }
+                ]
+            },
+            {
+                "title": "Ek Bharat Shreshtha Bharat",
+                "desc": [
+                    "To CELEBRATE the Unity in Diversity of our Nation and to maintain and strengthen the fabric of traditionally existing emotional bonds between the people of our Country.",
+                    "To PROMOTE the spirit of national integration through a deep and structured engagement between all Indian States."
+                ],
+                "events": [
+                    {
+                        "title": "Exhibition",
+                        "desc": [
+                            "Cultural, Tradition etc of North, East, West and South zone of India."
+                        ],
+                        "details": []
+                    },
+                    {
+                        "title": "Debate Competition",
+                        "desc": [
+                            "In this Inter college competition the participants will be showing their debating skill. It’s a one round competition."
+                        ],
+                        "details": []
+                    },
+                    {
+                        "title": "Photography Exhibition",
+                        "desc": [
+                            "In this competition interested students/faculty/staff can submit the photos which will be displayed for the judgement."
+                        ],
+                        "details": []
+                    },
+                    {
+                        "title": "Food Fest",
+                        "desc": [
+                            "The Food Festival is an EBSB(Ek Bharat Shreshtha Bharat) event which takes place in SHISHIR(The Annual Cultural Fest of NIT MEGHALAYA). This event showcases “Food and Cuisine” of Arunachal Pradesh, Uttar Pradesh and Meghalaya. The primary purpose of the festival is to communicate inspiration and knowledge about the food culture in India to all of its visitors.The Food Festival offers a diversity of opportunities and great experiences to a broad group of people in one weekend."
+                        ],
+                        "details": [
+                            {
+                                "title": "Rules and Guidelines",
+                                "content": [
+                                    "Group is maximum of 3 members.",
+                                    "A group can prepare different dishes belonging to any state,region etc.",
+                                    "It will be rated by the customers on the basis of their rating.",
+                                    "Group will be awarded with prize reward.",
+                                    "Participants have to bring their induction if they are using induction. Power supply will be provided by the college.",
+                                    "All the Cooking Utensils,gas, power supply etc will be provided by the college but the group needs to inform to organizers before hand(1 Week preferably).",
+                                    "All the Cooking Items(Vegetables, Rice etc) should be born by the group itself.",
+                                    "No registration fees for the participants but visitors need to pay 100 Rupees for entry.",
+                                    "Issues like crossing time limits, usage of abusive language will lead to disqualification.",
+                                    "The organizers have right to disqualify a team incase of any misbehaviour or failed to follow the instructions."
+                                ]
+                            },
+                            {
+                                "title": "Judging Criteria",
+                                "content": [
+                                    "Ratings by judges: 75%.",
+                                    "Ratings by visitors: 25%."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "3",
+        "category": [
+            {
+                "title": "",
+                "desc": [],
+                "events": [
+                    {
+                        "title": "Rangoli",
+                        "desc": "Rangoli, one of the most beautiful and most pleasing art forms of India, is comprised of two words, 'rang' meaning 'color' and 'aavalli' meaning colored creepers' or 'row of colors'. Rangoli basically comprises of the art of making designs or patterns on the walls or the floor of the house, using finely ground white powder along with different colors.",
+                        "details": [
+                            {
+                                "title": "Rules and Guidelines",
+                                "content": [
+                                    "Team size: 4 members from each department.",
+                                    "Space will be assignment at the time of the event.",
+                                    "Teams disturbing others in any form will be disqualified immediately.",
+                                    "It is a single round event.",
+                                    "The winners’ department will get points.",
+                                    "Time limit: 60min.",
+                                    "In case of dispute, the organizers have rights to bend rules provided it does minimum conflict to the party.",
+                                    "Under no circumstance shall any participant make attempts to manipulate/influence decisions of judges. Their decision shall be final and abiding.",
+                                    "All the required materials for the event should be informed to the organizers before hand and those will be provided by the college."
+                                ]
+                            },
+                            {
+                                "title": "Judging Criteria",
+                                "content": [
+                                    "Contestants will be judged by the beauty of the Rangoli by a team of judges.",
+                                    "Decision of the judge will be final."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Panache",
+                        "desc": "Panache, the fashion night of Shishir, cultural fest of NIT Meghalaya is the event that portrays the diversity of India as students of our institute will be showcasing attires of different states of India. Also, in this event we will have different rounds in which different seasonal clothes will be showcased. This event gives students the exposure and confidence to walk on the ramp with outfits that belong to their and others culture.",
+                        "details": [
+                            {
+                                "title": "Rules and Guidelines",
+                                "content": [
+                                    "Auditions will be conducted and selected contestants will be further judged finally on stage.",
+                                    "Top scorers bases on their performances on the Ramp will be selected for the questionnaire. The winners will be entitled Mr. Panache and Ms. Panache."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Step Up",
+                        "desc": "Why fight when you can dance? Have you ever had the desire to express the hidden language of your soul, make the music visible.Dance on the random music being played and show your instincts to dance.",
+                        "details": [
+                            {
+                                "title": "Rules and Guidelines",
+                                "content": [
+                                    "There will be 3 different events: solo,duet and Group.",
+                                    "Number of participants in group performance should be between 3-7 people.",
+                                    "The duration of music should be less than 6 minutes.",
+                                    "Participants have to submit their own music in specified format(mp3 or mp4).",
+                                    "In case of dispute, the organizers have rights to bend rules provided it does minimum conflict to both parties.",
+                                    "Under no circumstance shall any participant make attempts to manipulate/influence decisions of judges. Their decision shall be final and abiding.",
+                                    "Explicit or offensive performances/gestures guarantee immediate expulsion.",
+                                    "Participants under the influence of intoxicants will not be entertained."
+                                ]
+                            },
+                            {
+                                "title": "Judging Criteria",
+                                "content": [
+                                    "Costume: 20%",
+                                    "Choreography: 40%",
+                                    "Synchronization: 40%"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

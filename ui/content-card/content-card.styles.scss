@@ -1,0 +1,33 @@
+@import '../../sass/styles.scss';
+
+.content-card-container{
+    cursor: pointer;
+    line-height: 10rem;
+    width: 28rem;
+    height: 16rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 1rem;
+    color: $text-color;
+    box-shadow: $shadow-dark;
+    background-color: $color-grey-light-1;
+
+    @include respond("tablet"){
+        width: 24rem;
+        height: 14rem;
+      }
+
+    @include respond("phone"){
+        width: 18rem;
+    }
+}
+
+.content-card-container h1{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: 3rem;
+    margin: 0 auto;
+}
