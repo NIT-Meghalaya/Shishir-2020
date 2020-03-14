@@ -3,6 +3,7 @@ import fetch from 'isomorphic-unfetch';
 import absoluteUrl from '../../lib/absolute_url';
 import Card from '../../ui/content-card/content-card';
 import Overlay from '../../ui/overlay/overlay';
+import Footer from '../../ui/footer/footer';
 
 class Events extends React.Component {
   constructor(props) {
@@ -84,13 +85,13 @@ class Events extends React.Component {
                 return (
                   <div>
                     <h2>{category.title}</h2>
-                      {
-                        category.desc.map(desc => {
-                          return (
-                            <p>{desc}</p>
-                          )
-                        })
-                      }
+                    {
+                      category.desc.map(desc => {
+                        return (
+                          <p>{desc}</p>
+                        )
+                      })
+                    }
                     <div className="event-container">
                       {category.events.map((event) => {
                         return (
@@ -109,6 +110,7 @@ class Events extends React.Component {
               })
             }
           </div>
+          <Footer />
         </div>
       );
     }
