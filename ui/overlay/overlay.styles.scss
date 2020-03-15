@@ -3,21 +3,28 @@
 .close{
     margin: 0 auto;
     text-align: center;
-    margin: 2rem;
+    color: white;
+    padding: 3rem;
     display: flex;
     justify-content: flex-start;
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 500;
     cursor: pointer;
 }
 
 .overlay-content{
+    width: 80%;
+    padding: 5rem;
+    margin: 0 auto;
+    border-radius: 5px;
+    min-height: 100vh;
+    color: $text-color;
+    box-shadow: $shadow-dark;
+    background-color: $color-grey-light-1;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 5rem;
-    margin: 0 auto;
     line-height: 4rem;
     font-size: 2rem;
     h1{
@@ -29,7 +36,6 @@
 
     p{
         font-size: 2rem;
-        color: $text-color;
         font-weight: 400;
         text-align:center;  
         text-justify:inter-word;

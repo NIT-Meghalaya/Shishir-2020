@@ -3,7 +3,7 @@ import './overlay.styles.scss';
 const Overlay = (props) => {
     const event = props.event;
     return (
-        <div>
+        <div className="overlay-container">
             <div className="close">
                 <span onClick={props.closeOverlay}>close</span>
             </div>

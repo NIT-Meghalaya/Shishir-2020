@@ -50,11 +50,9 @@ class Events extends React.Component {
   render() {
     if (this.props.error) {
       return statusCode;
-    }
-
-    if (this.state.isOverlay) {
+    } else if (this.state.isOverlay) {
       return (
-        <div>
+        <div className="event-page-container">
           <Overlay
             closeOverlay={() => this.closeOverlay()}
             event={this.state.event}
@@ -63,56 +61,58 @@ class Events extends React.Component {
       )
     } else {
       return (
-        <div className="event-page-container">
-          <div className="event-header">
-            <div className="svg">
-              <Svg />
+        <div>
+          <div className="event-page-container">
+            <div className="event-header">
+              <div className="svg">
+                <Svg />
+              </div>
+              <h1 className="heading">EVENTS</h1>
+              <div className="day-container">
+                {
+                  this.props.events.map((day, index) => {
+                    return (
+                      <div onClick={() => this.setDay(day.category)}>
+                        <Card
+                          title={"Day " + day.day}
+                        />
+                      </div>
+                    )
+                  })
+                }
+              </div>
             </div>
-            <h1 className="heading">EVENTS</h1>
-            <div className="day-container">
+            <div className="category-container">
               {
-                this.props.events.map((day, index) => {
+                this.state.day.map((category) => {
                   return (
-                    <div onClick={() => this.setDay(day.category)}>
-                      <Card
-                        title={"Day " + day.day}
-                      />
+                    <div>
+                      <h2>{category.title}</h2>
+                      {
+                        category.desc.map(desc => {
+                          return (
+                            <p>{desc}</p>
+                          )
+                        })
+                      }
+                      <div className="event-container">
+                        {category.events.map((event) => {
+                          return (
+                            <div className="events"
+                              onClick={() => this.setEvent(event)}
+                            >
+                              <Card
+                                title={event.title}
+                              />
+                            </div>
+                          );
+                        })}
+                      </div>
                     </div>
-                  )
+                  );
                 })
               }
             </div>
-          </div>
-          <div className="category-container">
-            {
-              this.state.day.map((category) => {
-                return (
-                  <div>
-                    <h2>{category.title}</h2>
-                    {
-                      category.desc.map(desc => {
-                        return (
-                          <p>{desc}</p>
-                        )
-                      })
-                    }
-                    <div className="event-container">
-                      {category.events.map((event) => {
-                        return (
-                          <div className="events"
-                            onClick={() => this.setEvent(event)}
-                          >
-                            <Card
-                              title={event.title}
-                            />
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-                );
-              })
-            }
           </div>
           <Footer />
         </div>
