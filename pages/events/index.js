@@ -18,7 +18,7 @@ class Events extends React.Component {
   }
 
   static async getInitialProps() {
-    const path = "/json/events.json"
+    const path = "/event.json"
     const res = await fetch(absoluteUrl(path));
 
     const statusCode = res.status;
