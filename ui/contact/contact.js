@@ -20,12 +20,11 @@ export default class Contact extends React.Component {
             >
                 <label>Name:</label>
                 <input type="text" name="name" required />
-                <br></br>
                 <label>Email:</label>
                 <input type="email" name="email" required />
                 <br></br>
-                <label>Message:</label>
-                <input type="text" name="message" maxlength="75" required />
+                <label id="msg-label">Message:</label>
+                <textarea type="text" name="message" maxlength="400" id="message" required />
                 <br></br>
                 {status === "SUCCESS" ? <h2>Thanks!</h2> : <button>Submit</button>}
                 {status === "ERROR" && <h2>Ooops! There was an error.</h2>}
