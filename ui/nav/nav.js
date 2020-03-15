@@ -1,4 +1,3 @@
-import Link from "next/link";
 import "./nav.scss";
 
 export default class Nav extends React.Component {
@@ -34,9 +33,7 @@ export default class Nav extends React.Component {
               <a href="/events" className="nav-link" onClick={() => this.handleClick()}>Events</a>
             </div>
             <div className="item">
-              <Link href="/teams">
-                <a className="nav-link" onClick={() => this.handleClick()}>Teams</a>
-              </Link>
+              <a href="/teams" className="nav-link" onClick={() => this.handleClick()}>Teams</a>
             </div>
             {/* <div className="item">
               <Link href="/contact">
