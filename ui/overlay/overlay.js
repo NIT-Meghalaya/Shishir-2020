@@ -9,19 +9,23 @@ const Overlay = (props) => {
             </div>
             <div className="overlay-content">
                 <h1>{event.title}</h1>
-                <p>{event.desc}</p>
+                <div className="desc-container">
+                    <p>{event.desc}</p>
+                </div>
                 {
                     event.details.map(details => {
                         return (
-                            <div>
+                            <div className="content-container">
                                 <h2>{details.title}</h2>
-                                <ol className="content-container">
-                                    {
-                                        details.content.map(content => {
-                                            return <li>{content}</li>
-                                        })
-                                    }
-                                </ol>
+                                <div  className="paragraph">
+                                    <ol>
+                                        {
+                                            details.content.map(content => {
+                                                return <li>{content}</li>
+                                            })
+                                        }
+                                    </ol>
+                                </div>
                             </div>
                         )
                     })
